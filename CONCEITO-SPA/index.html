@@ -15,30 +15,9 @@
 
     <div id="app"></div>
 
-    <script>
+    <script src="js/index.js" type="module">
 
-        const routes = {
-
-            "/": "/pages/home.html",
-            "/about": "/pages/home.html",
-            "/contact": "/pages/home.html",
-            404: "/pages/home.html",
-        }
-
-        function route(event) {
-            event = event || window.event
-            event.preventDefault()
-
-            window.history.pushState ({}, "", event.target.href)
-
-            handle ()
-        }
-
-        function handle () {
-            const { pathname } = window.location
-
-           console.log(pathname)
-        }
+       
 
     </script>
 </body>

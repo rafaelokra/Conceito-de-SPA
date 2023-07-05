@@ -1,0 +1,23 @@
+{
+  "name": "conceito-de-spa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelokra/Conceito-de-SPA.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafaelokra/Conceito-de-SPA/issues"
+  },
+  "homepage": "https://github.com/rafaelokra/Conceito-de-SPA#readme",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
